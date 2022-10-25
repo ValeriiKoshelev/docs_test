@@ -11,3 +11,5 @@ User's Guide
    readme
    something
    new_stuff
+
+   versioning
