@@ -29,15 +29,6 @@ templates_path = [
     "templates",
 ]
 
-html_sidebars = {
-    "**": [
-        "about.html",
-        "navigation.html",
-        "relations.html",
-        "searchbox.html",
-        "versioning.html",
-    ],
-}
 
 smv_remote_whitelist = r"^origin$"
 smv_branch_whitelist = r"^main"
