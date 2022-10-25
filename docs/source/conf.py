@@ -28,7 +28,15 @@ html_theme = 'sphinx_rtd_theme'
 templates_path = [
     "templates",
 ]
-
+## In conf.py
+html_sidebars = { '**': [
+    'localtoc.html',
+    'versioning.html',
+    'relations.html',
+    'sourcelink.html',
+    'searchbox.html',
+]
+}
 
 smv_remote_whitelist = r"^origin$"
 smv_branch_whitelist = r"^main"
